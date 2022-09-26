@@ -347,6 +347,32 @@ header nav ul li:hover {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
+/* RESUME STYLE START */
+.resume {
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.resume h2 {
+  border-right: none;
+  border-bottom: 5px solid var(--secondary-color);
+  padding-bottom: 5px ;
+  margin: 0px 15px 20px 15px;
+}
+
+.resume ul {
+  margin-left: 0px;
+  flex-direction: column;
+  list-style: none;
+  font-size: 18px;
+  width: 300px;
+  line-height: 1.5;
+  text-align: center;
+}
+/* RESUME STYLE END */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
 /* FOOTER STYLE START */
 footer {
   background-color: var(--primary-color);
