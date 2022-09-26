@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/abbygraves-portfolio/static/css/main.9b23d310.css",
-    "main.js": "/abbygraves-portfolio/static/js/main.0ccc8b63.js",
+    "main.css": "/abbygraves-portfolio/static/css/main.afed61d4.css",
+    "main.js": "/abbygraves-portfolio/static/js/main.7aff9bc1.js",
     "static/js/787.951d2a2b.chunk.js": "/abbygraves-portfolio/static/js/787.951d2a2b.chunk.js",
     "static/media/hero-grid.jpg": "/abbygraves-portfolio/static/media/hero-grid.9db6899d12834a246156.jpg",
     "static/media/social-network-api.gif": "/abbygraves-portfolio/static/media/social-network-api.224af331bc574701b0ac.gif",
@@ -9,16 +9,20 @@
     "static/media/weather-dashboard.png": "/abbygraves-portfolio/static/media/weather-dashboard.820bff74bbaf92833873.png",
     "static/media/awkward-party-pal.png": "/abbygraves-portfolio/static/media/awkward-party-pal.5209c5f585a927482aaa.png",
     "static/media/headshot.png": "/abbygraves-portfolio/static/media/headshot.dcfe632b37527a95e12f.png",
+    "static/media/code-quiz.png": "/abbygraves-portfolio/static/media/code-quiz.f79225f362e1c44703cf.png",
     "static/media/hold-me-acct.png": "/abbygraves-portfolio/static/media/hold-me-acct.8f73e1fdd4a496a3de15.png",
     "static/media/password-generator.png": "/abbygraves-portfolio/static/media/password-generator.85dc6936931d6f8cac8e.png",
     "static/media/employee-tracker.png": "/abbygraves-portfolio/static/media/employee-tracker.7c9476038770b820f335.png",
+    "static/media/octocat-icon.svg": "/abbygraves-portfolio/static/media/octocat-icon.df2540c63270ba9e655f8c445c037e8c.svg",
+    "static/media/linkedin-icon.svg": "/abbygraves-portfolio/static/media/linkedin-icon.638efb7d7215b3d929b73d73e06b7cd1.svg",
+    "static/media/stackOverflow-icon.svg": "/abbygraves-portfolio/static/media/stackOverflow-icon.02f49022b2257787e2a7a0cdd741a156.svg",
     "index.html": "/abbygraves-portfolio/index.html",
-    "main.9b23d310.css.map": "/abbygraves-portfolio/static/css/main.9b23d310.css.map",
-    "main.0ccc8b63.js.map": "/abbygraves-portfolio/static/js/main.0ccc8b63.js.map",
+    "main.afed61d4.css.map": "/abbygraves-portfolio/static/css/main.afed61d4.css.map",
+    "main.7aff9bc1.js.map": "/abbygraves-portfolio/static/js/main.7aff9bc1.js.map",
     "787.951d2a2b.chunk.js.map": "/abbygraves-portfolio/static/js/787.951d2a2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b23d310.css",
-    "static/js/main.0ccc8b63.js"
+    "static/css/main.afed61d4.css",
+    "static/js/main.7aff9bc1.js"
   ]
 }
