@@ -10,7 +10,7 @@ function Header(props) {
   return (
     <header>
       <h1>
-        <a href="/">
+        <a href="index.html">
           AG
         </a>
       </h1>
