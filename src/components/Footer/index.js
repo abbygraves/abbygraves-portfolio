@@ -1,4 +1,3 @@
-// DONE
 import React from "react";
 // import Arrow from "../../assets/images/arrow.gif";
 import Octocat from "../../assets/images/octocat-icon.svg";

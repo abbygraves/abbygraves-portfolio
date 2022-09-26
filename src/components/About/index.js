@@ -1,4 +1,3 @@
-// DONE 
 import React from "react";
 import headshot from "../../assets/images/headshot.png";
 

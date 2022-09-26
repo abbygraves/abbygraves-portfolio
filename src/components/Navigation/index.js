@@ -1,4 +1,3 @@
-// DONE 
 import React from "react";
 
 // NAVIGATION COMPONENT

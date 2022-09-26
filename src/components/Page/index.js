@@ -1,5 +1,3 @@
-// DONE 
-
 // THIS WILL INCLUDE (IMPORT) THE FOLLOWING COMPONENTS: ABOUT, PROJECT (AKA PORTFOLIO), CONTACT, & RESUME
 import React from "react";
 import About from "../About";

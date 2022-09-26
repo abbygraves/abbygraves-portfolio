@@ -1,4 +1,3 @@
-// DONE 
 // THIS WILL INCLUDE (IMPORT) THE NAVIGATION COMPONENT
 import React from "react";
 import Navigation from "../Navigation";

@@ -1,4 +1,3 @@
-// DONE 
 // Credit: Lesson 20 Module Content 2U Bootcamp
 
 // CONTACT COMPONENT

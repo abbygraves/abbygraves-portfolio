@@ -1,5 +1,3 @@
-// DONE 
-
 // THIS WILL INCLUDE (IMPORT) YOUR WORK: NAMES, DESCRIPTIONS, IMAGES & LINKS (SIMILAR TO PHOTOLIST FROM MODULE)
 import React, { useState } from "react";
 import AwkwardPartyPal from "../../assets/images/awkward-party-pal.png";

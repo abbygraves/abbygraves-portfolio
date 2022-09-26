@@ -1,4 +1,3 @@
-/* // INCOMPLETE */
 :root {
   --primary-color: #000000;
   --secondary-color: #ffffff;
@@ -45,7 +44,6 @@ body {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
-/* // CLEAN UP: NAV NEEDS RESPONSIVENESS FIXING */
 /* HEADER + NAV STYLE START */
 header {
   background-color: var(--primary-color);
@@ -422,7 +420,8 @@ footer a {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 /* 
-// TODO: NAV BAR GETS TOO SMALL WHEN VW SHRINKS 
+// ‼︎ FOR FUTURE DEVELOPMENT
+// ‼︎ Nav bar pg links get too small when vw shrinks 
 // ‼︎ Try adding a menu icon to make nav bar collapsable on smaller screens
 */
 /* —————— MEDIA QUERIES —————— */
