@@ -87,7 +87,7 @@ header nav ul {
 header nav ul li {
   padding: 10px 0px;
   margin: 0 20px;
-  font-size: 1.75vw;
+  font-size: 1.5vw;
   font-weight: lighter;
 }
 
@@ -211,14 +211,13 @@ header nav ul li:hover {
   margin: 40px 50px;
   text-align:left;
   line-height: 1.8;
-  font-size: 16px;
+  font-size: 18px;
 }
 /* ABOUT ME STYLE END */
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 /* PORTFOLIO/PROJECT/MY WORK STYLE START */
-
 .work {
   padding-right: 35px;
 }
@@ -276,20 +275,73 @@ header nav ul li:hover {
   padding: 2px 6px;
 
 }
-
 /* PORTFOLIO/PROJECT/MY WORK STYLE END */
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
-/* // NOT IN USE */
 /* CONTACT STYLE START */
-.contact-info ul li a {
-  padding: 20px;
-  margin: 0 auto;
+.error-text {
+  color: rgb(255, 0, 0);
+  margin: 4px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.contact h2 {
+  border-right: none;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
   font-weight: normal;
+  /* font-style: oblique; */
+  letter-spacing: .02em;
+}
+
+#contact-form {
+  background-color: var(--primary-color);
+  border: 2px solid white;
+  border-radius: 5px;
+  filter: drop-shadow(-3px 3px 4px #CED4DA);
+  padding: 25px;
+  width: 50%;
+}
+
+.contact label {
+  font-size: 22px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  font-size: 18px;
+  margin: 5px 0 20px 0;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.contact button {
   font-size: 20px;
-  text-decoration: none;
-  color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  /* border: 2px solid white; */
+  border-radius: 5px;
+  width: 17%;
+  text-align: center;
+  margin-top: 5px;
+  padding: 2px;
+}
+
+.contact button:hover,
+.contact button:focus {
+  border: 2px solid white;
+  box-shadow: inset 6em 0 0 0 var(--primary-color);
+  transition: 0.5s;
+  color: var(--tertiary-color);
 }
 /* CONTACT STYLE END */
 
@@ -339,18 +391,14 @@ footer a {
   /* filter: invert(20%) sepia(32%) saturate(6051%) hue-rotate(-25deg) brightness(106%) contrast(107%); */
   filter: drop-shadow(3px 1px 0.5px #EC7713);
 }
-
-
 /* FOOTER STYLE END */
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
-
 /* 
 // TODO: NAV BAR GETS TOO SMALL WHEN VW SHRINKS 
 // ‼︎ Try adding a menu icon to make nav bar collapsable on smaller screens
 */
-
 /* —————— MEDIA QUERIES —————— */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
