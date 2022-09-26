@@ -1,8 +1,4 @@
-/* WHEN I am presented with the Portfolio section
-THEN I see titled images of 6 of the developer’s applications with links 
-to both the deployed applications and the corresponding GitHub repository */
-
-// INCOMPLETE
+// DONE 
 
 // THIS WILL INCLUDE (IMPORT) YOUR WORK: NAMES, DESCRIPTIONS, IMAGES & LINKS (SIMILAR TO PHOTOLIST FROM MODULE)
 import React, { useState } from "react";
@@ -13,6 +9,7 @@ import SocialNetworkApi from "../../assets/images/social-network-api.gif";
 import WeatherDash from "../../assets/images/weather-dashboard.png";
 import JATE from "../../assets/images/jate-install-video.gif";
 import PassGen from "../../assets/images/password-generator.png";
+import CodeQuiz from "../../assets/images/code-quiz.png";
 
 // PROJECT/PORTFOLIO COMPONENT
 const Portfolio = () => {
@@ -39,15 +36,13 @@ const Portfolio = () => {
       name: "Social Network API",
       imgAsset: SocialNetworkApi,
       repoUrl: "https://github.com/abbygraves/18-social-network-api",
-      appUrl:
-        "https://drive.google.com/file/d/1KBymuJL5zyXTYqLjzpgYPUy9uKXP8FeU/view",
+      appUrl: "https://drive.google.com/file/d/1KBymuJL5zyXTYqLjzpgYPUy9uKXP8FeU/view",
     },
     {
       name: "CMS Employee Tracker ",
       imgAsset: EmployeeTracker,
       repoUrl: "https://github.com/abbygraves/12-employee-tracker",
-      appUrl:
-        "https://drive.google.com/file/d/1ZwuIVcQEKAH_52x-2PRGbkpRNI8LvL3L/view",
+      appUrl: "https://drive.google.com/file/d/1ZwuIVcQEKAH_52x-2PRGbkpRNI8LvL3L/view",
     },
     {
       name: "Weather Dashboard",
@@ -61,22 +56,30 @@ const Portfolio = () => {
       repoUrl: "https://github.com/abbygraves/19-pwa-text-editor",
       appUrl: "https://fast-headland-03231.herokuapp.com/",
     },
+    {
+      name: "Coding Quiz",
+      imgAsset: CodeQuiz,
+      repoUrl: "https://github.com/abbygraves/4-code-quiz",
+      appUrl: "https://abbygraves.github.io/4-code-quiz/",
+    },
   ]);
 
-  // FIXME: DESPERATLEY NEEDS STYLING 
   return (
-    <section id="work" className="sections">
-      <h2>My Work</h2>
+    <section className="sections work">
+      <h2 className="work-h2tag">My<br/>Work</h2>
       <div className="section-content">
         {projects.map((project, i) => (
-          <div key={i}>
-            <h3>
-              <a href={project.appUrl}>{project.name}</a>
-            </h3>
-            <h4>
-              <a href={project.repoUrl}>View the GitHub Repository</a>
-            </h4>
-            <img src={project.imgAsset} alt={project.name} />
+          <div className="wrapper">
+            <div className="container" key={i}>
+              <a href={project.appUrl}>
+                <img src={project.imgAsset} alt={project.name} />
+              </a>
+              <div className="text-block">
+                {project.name}
+                <br/>
+                <a href={project.repoUrl}>View the GitHub Repository</a>
+              </div>
+            </div>
           </div>
         ))}
       </div>

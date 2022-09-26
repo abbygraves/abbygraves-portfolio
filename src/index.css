@@ -1,21 +1,4 @@
 /* // INCOMPLETE */
-/* ⬇︎ CREATE REACT APP CODE ⬇︎ */
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-/* ⬆︎ CREATE REACT APP CODE ⬆︎ */
-
-/* —————————————————————————————————————————————————————————————————————————————— */
 :root {
   --primary-color: #000000;
   --secondary-color: #ffffff;
@@ -39,7 +22,7 @@ body {
 /* HEADER + NAV STYLE START */
 header {
   background-color: var(--primary-color);
-  padding: 10px 35px 0 35px;
+  padding: 20px 20px 0 40px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -75,10 +58,14 @@ header nav ul {
 }
 
 header nav ul li {
-  padding: 10px 5px;
-  margin: 0 25px;
+  padding: 10px 0px;
+  margin: 0 20px;
   font-size: 1.75vw;
   font-weight: lighter;
+}
+
+header nav ul li:hover {
+  cursor: grab;
 }
 
 .navActive {
@@ -143,7 +130,7 @@ header nav ul li {
 .sections {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 80px 30px;
+  padding: 50px 30px;
   margin: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -168,6 +155,11 @@ header nav ul li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.section-content img:hover {
+  filter: none;
+  opacity: 100%;
 }
 /* SECTIONS STYLE END */
 
@@ -199,49 +191,37 @@ header nav ul li {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 /* PORTFOLIO/PROJECT/MY WORK STYLE START */
-.main {
-  border: 10px solid var(--secondary-color);
-  border-bottom: 5px solid var(--secondary-color);
-  padding: 5px;
-  position: relative;
+
+.work {
+  padding-left: 0;
 }
 
-.main img {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  opacity: 80%;
-  filter: grayscale(100%);
+.work-h2tag {
+  align-self: flex-start;
 }
 
-.other {
-  border: 5px solid var(--secondary-color);
+.wrapper {
+  /* border: 5px solid var(--secondary-color); */
   border-top: 0;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  width: 50%;
+  display: table;
   justify-content: space-between;
 }
 
 .container {
   border: 5px solid var(--secondary-color);
-  width: 50%;
-  padding: 5px;
+  width: 95%;
+  padding: 4px;
   position: relative;
+  margin: 15px;
 }
 
 .container img {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
-  height: 200px;
-  opacity: 80%;
-  filter: grayscale(100%);
-}
-
-.section-content img:hover {
-  filter: none;
+  height: 285px;
   opacity: 100%;
+  filter: grayscale(100%);
 }
 
 .text-block {
@@ -249,23 +229,31 @@ header nav ul li {
   bottom: 25px;
   background: var(--secondary-color);
   color: var(--primary-color);
-  padding: 7px 20px;
+  padding: 6px 25px;
   border: 3px solid var(--primary-color);
   border-left: 0;
-}
-
-.text-block p {
   font-weight: bold;
   font-style: italic;
   font-size: 22px;
-  line-height: .75;
+  line-height: 1;
 }
 
-.text-block span {
-  font-size: 12px;
+.text-block a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 14px;
   font-weight: lighter;
   font-style: italic;
 }
+
+.text-block a:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 2px;
+  padding: 2px 6px;
+
+}
+
 /* PORTFOLIO/PROJECT/MY WORK STYLE END */
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
