@@ -63,6 +63,7 @@ const Portfolio = () => {
     },
   ]);
 
+  // FIXME: DESPERATLEY NEEDS STYLING 
   return (
     <section id="work" className="sections">
       <h2>My Work</h2>

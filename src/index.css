@@ -35,21 +35,24 @@ body {
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
+/* // CLEAN UP: NAV NEEDS RESPONSIVENESS FIXING */
 /* HEADER + NAV STYLE START */
 header {
   background-color: var(--primary-color);
-  padding: 20px 35px 0 35px;
+  padding: 10px 35px 0 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
+  /* filter: drop-shadow(0px -20px 25px var(--secondary-color)); */
 }
 
 header h1 {
   color: var(--secondary-color);
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
+  /* margin: 30px 0 0 0; */
+  padding: 5px 0px;
 }
 
 header a {
@@ -59,7 +62,7 @@ header a {
 
 header nav {
   color: var(--secondary-color);
-  margin: 30px 0;
+  /* margin: 30px 0 0 0; */
 }
 
 header nav ul {
@@ -140,8 +143,8 @@ header nav ul li {
 .sections {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 30px;
-  margin: 20px;
+  padding: 80px 30px;
+  margin: 15px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -287,36 +290,55 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  padding: 40px;
+  padding: 20px;
 }
 
 footer ul {
   display: flex;
   flex-direction: row;
   list-style: none;
+  align-items: center;
 }
 
-footer p,
-footer a {
+footer p {
   text-decoration: none;
   color: var(--secondary-color);
-  padding: 10px 20px 10px 20px;
-  font-size: 18px;
-  margin: 0px 10px;
+  /* padding: 10px 20px; */
+  font-size: 16px;
+  margin-top: 15px;
 }
 
-footer ul li a:hover {
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  border-radius: 3px;
+footer a {
+  margin: 0 20px;
 }
+
+#octo:hover {
+  filter: drop-shadow(3px 1px 0.5px #2FBB4F);
+}
+
+#linked:hover {
+  /* filter: invert(40%) sepia(98%) saturate(3980%) hue-rotate(180deg) brightness(102%) contrast(103%); */
+  filter: drop-shadow(3px 1px 0.5px #20A7FF);
+}
+
+#stack:hover {
+  /* filter: invert(20%) sepia(32%) saturate(6051%) hue-rotate(-25deg) brightness(106%) contrast(107%); */
+  filter: drop-shadow(3px 1px 0.5px #EC7713);
+}
+
+
 /* FOOTER STYLE END */
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
+/* 
+// TODO: NAV BAR GETS TOO SMALL WHEN VW SHRINKS 
+// ‼︎ Try adding a menu icon to make nav bar collapsable on smaller screens
+*/
 
 /* —————— MEDIA QUERIES —————— */
 

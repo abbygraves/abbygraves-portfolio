@@ -34,7 +34,7 @@ function App() {
           </div>
         </div>
       </section>
-      <main className="sections">
+      <main>
         <Page currentPage={currentPage} />
       </main>
       <Footer />

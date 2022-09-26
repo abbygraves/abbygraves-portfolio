@@ -11,7 +11,7 @@ import headshot from "../../assets/images/headshot.png";
 // ABOUT COMPONENT
 function About() {
   return (
-    <section id="about-me" className="sections">
+    <section className="sections">
       <h2>About Me</h2>
       <div className="section-content">
         <div className="about-me">
