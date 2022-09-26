@@ -5,10 +5,8 @@
 ## **Description**
 To showcase my work as a Full Stack Web Developer I created a personal portfolio using React. This portfolio is a single page application (SPA).
 
-<!-- NEED LINK TO DEPLOYED SITE !!!-->
-### [Click here to View My Portfolio!]()
+### [Click here to View My Portfolio!](https://abbygraves.github.io/abbygraves-portfolio/)
 
-<!-- NEED IMAGE !!!-->
 <img src="./src/assets/images/react-portfolio.png"/>
 
 <br/>
@@ -25,9 +23,8 @@ To showcase my work as a Full Stack Web Developer I created a personal portfolio
 
 <br/>
 
-  <!-- NEED LINK TO DEPLOYED SITE !!!-->
 ## **Usage & Installation** 
-Users can access the appplication by navigating to the deployed Github pages site [here](). Upon loading the webpage users are presented with a homepage and navigation bar which can be used to move about the site and view my work, resume, and reach out through the contact form if they so choose.
+Users can access the appplication by navigating to the deployed Github pages site [here](https://abbygraves.github.io/abbygraves-portfolio/). Upon loading the webpage users are presented with a homepage and navigation bar which can be used to move about the site and view my work, resume, and reach out through the contact form if they so choose.
 
 <br/>
 
