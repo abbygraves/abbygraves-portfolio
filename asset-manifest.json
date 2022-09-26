@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/abbygraves-portfolio/static/css/main.afed61d4.css",
-    "main.js": "/abbygraves-portfolio/static/js/main.7aff9bc1.js",
+    "main.css": "/abbygraves-portfolio/static/css/main.81b601b8.css",
+    "main.js": "/abbygraves-portfolio/static/js/main.f4f53503.js",
     "static/js/787.951d2a2b.chunk.js": "/abbygraves-portfolio/static/js/787.951d2a2b.chunk.js",
     "static/media/hero-grid.jpg": "/abbygraves-portfolio/static/media/hero-grid.9db6899d12834a246156.jpg",
     "static/media/social-network-api.gif": "/abbygraves-portfolio/static/media/social-network-api.224af331bc574701b0ac.gif",
@@ -17,12 +17,12 @@
     "static/media/linkedin-icon.svg": "/abbygraves-portfolio/static/media/linkedin-icon.638efb7d7215b3d929b73d73e06b7cd1.svg",
     "static/media/stackOverflow-icon.svg": "/abbygraves-portfolio/static/media/stackOverflow-icon.02f49022b2257787e2a7a0cdd741a156.svg",
     "index.html": "/abbygraves-portfolio/index.html",
-    "main.afed61d4.css.map": "/abbygraves-portfolio/static/css/main.afed61d4.css.map",
-    "main.7aff9bc1.js.map": "/abbygraves-portfolio/static/js/main.7aff9bc1.js.map",
+    "main.81b601b8.css.map": "/abbygraves-portfolio/static/css/main.81b601b8.css.map",
+    "main.f4f53503.js.map": "/abbygraves-portfolio/static/js/main.f4f53503.js.map",
     "787.951d2a2b.chunk.js.map": "/abbygraves-portfolio/static/js/787.951d2a2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afed61d4.css",
-    "static/js/main.7aff9bc1.js"
+    "static/css/main.81b601b8.css",
+    "static/js/main.f4f53503.js"
   ]
 }
