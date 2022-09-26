@@ -193,7 +193,7 @@ header nav ul li:hover {
 /* PORTFOLIO/PROJECT/MY WORK STYLE START */
 
 .work {
-  padding-left: 0;
+  padding-right: 35px;
 }
 
 .work-h2tag {
@@ -201,11 +201,7 @@ header nav ul li:hover {
 }
 
 .wrapper {
-  /* border: 5px solid var(--secondary-color); */
-  border-top: 0;
   width: 50%;
-  display: table;
-  justify-content: space-between;
 }
 
 .container {
@@ -213,7 +209,7 @@ header nav ul li:hover {
   width: 95%;
   padding: 4px;
   position: relative;
-  margin: 15px;
+  margin: 13px;
 }
 
 .container img {
@@ -234,14 +230,14 @@ header nav ul li:hover {
   border-left: 0;
   font-weight: bold;
   font-style: italic;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1;
 }
 
 .text-block a {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: lighter;
   font-style: italic;
 }

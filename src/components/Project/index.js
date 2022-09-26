@@ -66,7 +66,7 @@ const Portfolio = () => {
 
   return (
     <section className="sections work">
-      <h2 className="work-h2tag">My<br/>Work</h2>
+      <h2 className="work-h2tag">My Work</h2>
       <div className="section-content">
         {projects.map((project, i) => (
           <div className="wrapper">
