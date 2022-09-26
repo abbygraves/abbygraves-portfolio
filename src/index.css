@@ -91,7 +91,7 @@ header nav ul li {
 /* HERO STYLE START */
 .hero {
   background-image: url(./assets/images/hero-grid.jpg);
-  height: 450px;
+  height: 350px;
   background-size: cover;
   background-position: center;
   display: flex;

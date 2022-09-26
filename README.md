@@ -9,7 +9,7 @@ To showcase my work as a Full Stack Web Developer I created a personal portfolio
 ### [Click here to View My Portfolio!]()
 
 <!-- NEED IMAGE !!!-->
-<img src=""/>
+<img src="./src/assets/images/react-portfolio.png"/>
 
 <br/>
 
