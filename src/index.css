@@ -33,6 +33,53 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: whitesmoke;
 }
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+/* HERO STYLE START */
+.hero {
+  background-image: url(./assets/images/hero-grid.jpg);
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-attachment: fixed;
+  align-items: center;
+}
+
+.hero-name {
+  background-image: linear-gradient(#000, #191919, #333333);
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 2px;
+  position: relative;
+  margin-bottom: 52px;
+}
+
+.hero-name p {
+  padding: 35px 70px;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero-text {
+  color: var(--secondary-color);
+  position: absolute;
+  left: 36%;
+  top: 65%;
+  white-space: nowrap;
+  transform: rotate(-7deg);
+}
+
+.hero-text p {
+  font-size: 90px;
+  font-family: Brush Script MT;
+  padding: 0;
+}
+/* HERO STYLE END */
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
@@ -59,6 +106,7 @@ header a {
 }
 
 header nav {
+  color: var(--secondary-color);
   margin: 30px 0;
 }
 
@@ -71,7 +119,7 @@ header nav ul {
   align-items: center;
 }
 
-header nav ul li a {
+header nav ul li {
   padding: 10px 5px;
   margin: 0 25px;
   font-size: 1.75vw;
@@ -82,6 +130,40 @@ header nav ul li a:hover {
   border-bottom: 6px solid var(--secondary-color);
 }
 /* HEADER + NAV STYLE END */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+/* SECTIONS STYLE START */
+.sections {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sections h2 {
+  border-right: 5px solid var(--secondary-color);
+  font-size: 32px;
+  padding: 20px;
+  margin: 10px;
+  flex: 10%;
+  display: flex;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+.section-content {
+  flex: 80%;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* SECTIONS STYLE END */
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 

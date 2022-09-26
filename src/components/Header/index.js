@@ -1,8 +1,30 @@
 /* WHEN I view the header
 THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio */
 
-// INCOMPLETE 
+// INCOMPLETE
 
 // THIS WILL INCLUDE (IMPORT) THE NAVIGATION COMPONENT
+import React from "react";
+import Navigation from "../Navigation";
 
 // HEADER COMPONENT
+function Header(props) {
+  const { pages, setCurrentPage, currentPage } = props;
+
+  return (
+    <header>
+      <h1>
+        <a href="/">
+          AG
+        </a>
+      </h1>
+      <Navigation
+        pages={pages}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+      />
+    </header>
+  );
+}
+
+export default Header;
