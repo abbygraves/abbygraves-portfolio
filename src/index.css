@@ -124,7 +124,7 @@ header nav ul li:hover {
   border: 2px solid var(--secondary-color);
   border-radius: 2px;
   position: relative;
-  margin-bottom: 52px;
+  margin-bottom: 65px;
 }
 
 .hero-name p {
@@ -211,7 +211,7 @@ header nav ul li:hover {
   margin: 40px 50px;
   text-align:left;
   line-height: 1.8;
-  font-size: 18px;
+  font-size: 17px;
 }
 /* ABOUT ME STYLE END */
 
