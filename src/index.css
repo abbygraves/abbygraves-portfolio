@@ -16,6 +16,33 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: whitesmoke;
 }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+/* SCROLLBAR START */
+::-webkit-scrollbar {
+  width: .8em;
+  height: .8em;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border: .2em solid var(--primary-color);
+  border-radius: 10px;
+}
+
+/* syntax to support Firefox browser*/
+@supports (scrollbar-color: white black) {
+  * {
+    scrollbar-color: white black;
+  }
+}
+/* SCROLLBAR END */
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 /* // CLEAN UP: NAV NEEDS RESPONSIVENESS FIXING */
