@@ -2,9 +2,11 @@
 import React from "react";
 import Navigation from "../Navigation";
 
+
 // HEADER COMPONENT
 function Header(props) {
   const { pages, setCurrentPage, currentPage } = props;
+
 
   return (
     <header>

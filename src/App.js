@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
 import Footer from "./components/Footer";
-import Header from "./components/Header"; /* Includes Component: Navigation */
+// import Header from "./components/Header"; 
 import Page from "./components/Page"; /* Includes Components: About, Portfolio, Contact, & Resume */
+import DrawerAppBar from "./components/DrawerAppBar"; /* Includes Component: Navigation */
 
 function App() {
   const [pages] = useState([
@@ -17,10 +18,10 @@ function App() {
 
   return (
     <div>
-      <Header
+      <DrawerAppBar
+        pages={pages}
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
-        pages={pages}
         pageSelected={pageSelected}
         setPageSelected={setPageSelected}
       />

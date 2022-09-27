@@ -47,7 +47,7 @@ body {
 /* HEADER + NAV STYLE START */
 header {
   background-color: var(--primary-color);
-  padding: 20px 20px 0 40px;
+  padding: 20px 40px 0 40px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -68,12 +68,12 @@ header a {
   color: var(--secondary-color);
 }
 
-header nav {
+nav {
   color: var(--secondary-color);
   /* margin: 30px 0 0 0; */
 }
 
-header nav ul {
+nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -82,21 +82,25 @@ header nav ul {
   align-items: center;
 }
 
-header nav ul li {
+nav ul li {
   padding: 10px 0px;
-  margin: 0 20px;
-  font-size: 1.5vw;
+  margin: 0px 20px;
+  font-size: 15px;
   font-weight: lighter;
 }
 
-header nav ul li:hover {
+nav ul li:hover {
   cursor: grab;
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  background-color: #000;
 }
 
 .navActive {
   color: var(--primary-color);
   background: var(--secondary-color);
-  padding: 2px 6px;
+  padding: 2px 8px;
   border-radius: 3px;
 }
 /* HEADER + NAV STYLE END */
@@ -114,6 +118,8 @@ header nav ul li:hover {
   justify-content: center;
   background-attachment: fixed;
   align-items: center;
+  margin-top: 80px;
+  
 }
 
 .hero-name {
