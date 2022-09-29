@@ -11,7 +11,7 @@ import IconButton from "@mui/material/IconButton";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
+// import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/MenuRounded";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
@@ -45,18 +45,20 @@ function DrawerAppBar(props) {
         color: "white",
       }}
     >
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" sx={{ my: 2, fontWeight: "bold" }}>
         MENU
       </Typography>
       <Divider sx={{ backgroundColor: 'white' }} />
-      <List>
-        {pages.map((Page) => (
-          <ListItem key={Page.name} >
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={Page.name} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+      <List sx={{ textAlign: "center"}}>
+        <ListItem>
+          <ListItemButton>
+            <Navigation
+              pages={pages}
+              setCurrentPage={setCurrentPage}
+              currentPage={currentPage}
+            />
+          </ListItemButton>
+        </ListItem>
       </List>
     </Box>
   );
