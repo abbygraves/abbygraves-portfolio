@@ -8,6 +8,7 @@ import WeatherDash from "../../assets/images/weather-dashboard.png";
 import JATE from "../../assets/images/jate-install-video.gif";
 import PassGen from "../../assets/images/password-generator.png";
 import CodeQuiz from "../../assets/images/code-quiz.png";
+import ICanHaz from "../../assets/images/i-can-haz.png";
 
 // PROJECT/PORTFOLIO COMPONENT
 const Portfolio = () => {
@@ -25,10 +26,10 @@ const Portfolio = () => {
       appUrl: "https://afternoon-depths-64455.herokuapp.com/login",
     },
     {
-      name: "Random Password Generator",
-      imgAsset: PassGen,
-      repoUrl: "https://github.com/abbygraves/3-pass-gen-mission",
-      appUrl: "https://abbygraves.github.io/3-pass-gen-mission/",
+      name: "I Can Haz",
+      imgAsset: ICanHaz,
+      repoUrl: "https://github.com/jbradley84/i-can-haz",
+      appUrl: "https://i-can-hazz.herokuapp.com/",
     },
     {
       name: "Social Network API",
